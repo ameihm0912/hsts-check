@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <openssl/ssl.h>
 
-#define CIPHER_LIST "HIGH:!aNULL:!kRSA:!PSK:!SRP:!MD5:!RC4"
+#define CIPHER_LIST "HIGH:!aNULL:!eNULL:!PSK:!DES:!SRP:!MD5:!RC4:!EXPORT"
 #define MAX_HTTP_RESPONSE 10240
 
 struct checkhost {
